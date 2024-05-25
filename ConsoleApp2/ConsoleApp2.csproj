@@ -50,11 +50,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\build\SwigWrapper.vcxproj">
-      <Project>{9b5e918f-af48-3086-886b-fff63dd97023}</Project>
-      <Name>SwigWrapper</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
