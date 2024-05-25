@@ -1,0 +1,7 @@
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Release\ConsoleApp2.exe.config
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Release\ConsoleApp2.exe
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Release\ConsoleApp2.pdb
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Release\ConsoleApp2.csproj.AssemblyReference.cache
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Release\ConsoleApp2.csproj.CoreCompileInputs.cache
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Release\ConsoleApp2.exe
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Release\ConsoleApp2.pdb

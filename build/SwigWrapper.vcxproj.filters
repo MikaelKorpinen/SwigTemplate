@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\GitProjects\SwigTemplate\SwigTemplate\build\CSharpWrapper\service_interfaceCSHARP_wrap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitProjects\SwigTemplate\SwigTemplate\SourceCodeProject\source_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GitProjects\SwigTemplate\SwigTemplate\SwigInterface\service_interface.i" />
+    <CustomBuild Include="G:\GitProjects\SwigTemplate\SwigTemplate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\GitProjects\SwigTemplate\SwigTemplate\build\CSharpWrapper\service_interface.cs" />
+    <None Include="G:\GitProjects\SwigTemplate\SwigTemplate\build\CSharpWrapper\service_interfacePINVOKE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87E81C36-2471-322F-BB19-594DE94BFC8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

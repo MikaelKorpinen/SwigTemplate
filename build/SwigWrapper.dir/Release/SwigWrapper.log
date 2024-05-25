@@ -1,0 +1,7 @@
+﻿  Swig compile G:/GitProjects/SwigTemplate/SwigTemplate/SwigInterface/service_interface.i for csharp
+  Building Custom Rule G:/GitProjects/SwigTemplate/SwigTemplate/CMakeLists.txt
+  service_interfaceCSHARP_wrap.cxx
+  source_code.cpp
+  Generating Code...
+     Creating library G:/GitProjects/SwigTemplate/SwigTemplate/build/Release/SwigWrapper.lib and object G:/GitProjects/SwigTemplate/SwigTemplate/build/Release/SwigWrapper.exp
+  SwigWrapper.vcxproj -> G:\GitProjects\SwigTemplate\SwigTemplate\build\Release\SwigWrapper.dll

@@ -1,0 +1,3 @@
+G:/GitProjects/SwigTemplate/SwigTemplate/build/CMakeFiles/SwigWrapper.dir
+G:/GitProjects/SwigTemplate/SwigTemplate/build/CMakeFiles/ALL_BUILD.dir
+G:/GitProjects/SwigTemplate/SwigTemplate/build/CMakeFiles/ZERO_CHECK.dir

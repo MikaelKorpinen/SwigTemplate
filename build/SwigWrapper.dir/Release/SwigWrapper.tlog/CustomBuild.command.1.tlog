@@ -1,0 +1,22 @@
+^G:\GITPROJECTS\SWIGTEMPLATE\SWIGTEMPLATE\SWIGINTERFACE\SERVICE_INTERFACE.I
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory G:/GitProjects/SwigTemplate/SwigTemplate/build/CMakeFiles/SwigWrapper.dir G:/GitProjects/SwigTemplate/SwigTemplate/build/CSharpWrapper G:/GitProjects/SwigTemplate/SwigTemplate/build/CSharpWrapper
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env SWIG_LIB=G:/GitProjects/SwigTemplate/SwigTemplate/3rdParty/swigwin-4.2.1/Lib G:/GitProjects/SwigTemplate/SwigTemplate/3rdParty/swigwin-4.2.1/swig.exe -csharp -namespace MyNameSpace -outdir G:/GitProjects/SwigTemplate/SwigTemplate/build/CSharpWrapper -c++ -dllimport SwigWrapper -IG:/GitProjects/SwigTemplate/SwigTemplate/SourceCodeProject -o G:/GitProjects/SwigTemplate/SwigTemplate/build/CSharpWrapper/service_interfaceCSHARP_wrap.cxx G:/GitProjects/SwigTemplate/SwigTemplate/SwigInterface/service_interface.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\GITPROJECTS\SWIGTEMPLATE\SWIGTEMPLATE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/GitProjects/SwigTemplate/SwigTemplate -BG:/GitProjects/SwigTemplate/SwigTemplate/build --check-stamp-file G:/GitProjects/SwigTemplate/SwigTemplate/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+﻿  service_interfaceCSHARP_wrap.cxx
+  service_interfaceCSHARP_wrap.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+     Creating library G:/GitProjects/SwigTemplate/SwigTemplate/build/Debug/SwigWrapper.lib and object G:/GitProjects/SwigTemplate/SwigTemplate/build/Debug/SwigWrapper.exp
+  SwigWrapper.vcxproj -> G:\GitProjects\SwigTemplate\SwigTemplate\build\Debug\SwigWrapper.dll

@@ -1,0 +1,10 @@
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Debug\SwigWrapper.dll
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\bin\Debug\SwigWrapper.pdb
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Debug\ConsoleA.D5FB4C91.Up2Date
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+G:\GitProjects\SwigTemplate\SwigTemplate\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
