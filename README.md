@@ -1,26 +1,47 @@
 # SwigTemplate
- Template project that has swig with minimal code and is build with CMAKE
+A template project that integrates SWIG with minimal code, built using CMake.
 
-#How to verify
+## How to Verify
 
-1. Open SwigTemplate.sln
-2. Make sure console app2 is selected as startup application
-3. Hit play. Console should appear giving a number.
+1. Open `SwigTemplate.sln` in Visual Studio.
+2. Ensure `ConsoleApp2` is set as the startup project.
+3. Press `F5` or click `Start`. A console should appear displaying a number.
 
-# How to use the template
+## How to Use the Template
 
-In case of using your own code some or a lot of changes need to be done.
-1. Source code project folder contains the source code
-2. Swig interface contains the swig interfacce file that is used to define the interface from managed c++ to C#
-3. Console app 2 contain the code using the wrapped c++ code.
-4. cd to build folder on powershell and run "cmake -G "Visual Studio 17 2022" -A x64 .." after that run "cmake --build ."
-This will generate the wrapper dll in build/Debug folder
+To adapt this template for your own code, follow these steps:
 
-# Issues encountered and solved
-1. Console app was defaulted to 32 bits. This caused the function execution from the dll to throw error.
-2. To work with clr supported dll the wrapper project had to be set to have common language runtime support (clr) and Enable c++ exceptions to Yes with SEH from project c++ settings.
-There might have been 1 other but it was easy to solve. Similarly just change the setting in the build error to supported format.
-3. To support fully unmanaged the dll reference neededto be removed and the dll to be moved next to console app executable
+1. **Source Code:**
+   - The `source_code` folder contains the C++ source code.
 
-# Future Improvements
-It is possible to run unmanaged code aswell (no clr).
+2. **SWIG Interface:**
+   - The `swig_interface` folder contains the SWIG interface file that defines the interface between managed C++ and C#.
+
+3. **Console Application:**
+   - The `ConsoleApp2` folder contains the C# code that uses the wrapped C++ code.
+
+4. **Build the Project:**
+   - Open PowerShell and navigate to the `build` folder.
+   - Run the following commands:
+     ```sh
+     cmake -G "Visual Studio 17 2022" -A x64 ..
+     cmake --build .
+     ```
+   - This will generate the wrapper DLL in the `build/Debug` folder and create a project for the wrapper.
+
+5. **Deploy the DLL:**
+   - Copy `SwigWrapper.dll` to the directory containing the `ConsoleApp2` executable.
+
+## Issues Encountered and Solved
+
+1. **32-bit Console Application:**
+   - The console app was initially set to 32-bit, causing errors when executing functions from the DLL.
+   - Solution: Change the console app to target x64 in the project settings.
+
+2. **CLR Support:**
+   - To work with a CLR-supported DLL, the wrapper project must be configured with CLR support and C++ exceptions enabled (set to SEH).
+   - Solution: Adjust these settings in the project's C++ settings.
+
+3. **Unmanaged Code Support:**
+   - To fully support unmanaged code, the DLL reference needs to be removed, and the DLL should be placed next to the `ConsoleApp2` executable.
+   - Solution: Manually place the DLL next to the executable after building.
