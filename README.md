@@ -3,9 +3,8 @@ A template project that integrates SWIG with minimal code, built using CMake.
 
 ## How to Verify
 
-1. Open `SwigTemplate.sln` in Visual Studio.
-2. Ensure `ConsoleApp2` is set as the startup project.
-3. Press `F5` or click `Start`. A console should appear displaying a number.
+1. There is a console app 2 project added to the repository. Open it or run executable.
+2. The CMake and Swig produced dll needs to be next to the executable.
 
 ## How to Use the Template
 
